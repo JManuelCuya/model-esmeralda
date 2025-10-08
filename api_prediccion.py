@@ -23,10 +23,7 @@ class DatosEntrada(BaseModel):
     sub_categoria: str
     tipo_solicitud: str
     proceso: str
-    tiempo_promedio: str  
-    
-
-
+    tiempo_promedio: float    
 
 # Endpoint de predicción
 @app.post("/predecir")
